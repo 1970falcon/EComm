@@ -64,5 +64,9 @@ Class StoreController extends BaseController {
 
         return Redirect::to('store/cart');
     }
+
+    public function getContact() {
+        return View::make('store.contact');
+    }
 }
 ?>
