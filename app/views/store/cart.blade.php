@@ -29,8 +29,7 @@
                 <td>${{ $product->price }}</td>
                 <td>{{ $product->quantity }}</td>
                 <td>
-                    {{ $itemtotal = $product->price * $quantity }}
-                    ${{ $itemtotal }}
+                    ${{ $product->price * $product->quantity }}
                     <a href="/store/removeitem/{{ $product->identifier }}">
                         {{ HTML::image('img/remove.gif', 'Remove product') }}
                     </a>

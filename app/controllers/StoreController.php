@@ -50,7 +50,7 @@ Class StoreController extends BaseController {
         return Redirect::to('store/cart');
     }
     
-    public function getAddtocart() {
+    public function postAddtocart() {
         $product  = Product::find(Input::get('id'));
         $quantity = Input::get('quantity');
 
