@@ -5,7 +5,11 @@
     "license": "MIT",
     "require": {
         "laravel/framework": "4.1.*",
-        "intervention/image": "dev-master"
+        "intervention/image": "dev-master",
+        "moltin/cart": "dev-master",
+        "moltin/tax": "dev-master",
+        "moltin/currency": "dev-master",
+        "moltin/laravel-cart": "dev-master"
     },
     "autoload": {
         "classmap": [

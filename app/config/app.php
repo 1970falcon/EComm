@@ -108,6 +108,7 @@ return array(
         'Illuminate\Workbench\WorkbenchServiceProvider',
 
         'Intervention\Image\ImageServiceProvider',
+        'Moltin\Cart\CartServiceProvider',
     ),
 
     /*
@@ -175,6 +176,7 @@ return array(
         'View'            => 'Illuminate\Support\Facades\View',
 
         'Image'           => 'Intervention\Image\Facades\Image',
+        'Cart'            => 'Moltin\Cart\Facade',
     ),
 
 );
